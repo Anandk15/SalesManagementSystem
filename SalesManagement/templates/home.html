@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% block content %}
+{% if sales %}
+<h1> welcome to sales page{{ user }}</h1>
+{% else %}
+<h1> welcome to admin page </h1>
+{% endif %}
+{% endblock %}
